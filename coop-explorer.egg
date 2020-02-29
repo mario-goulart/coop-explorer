@@ -1,0 +1,9 @@
+;;; slice.egg -*- scheme -*-
+
+((synopsis "Accessors for henrietta-cache's cache directories")
+ (author "Mario Domenech Goulart")
+ (license "BSD")
+ (category egg-tools)
+ (component-options
+  (csc-options "-O3" "-d1"))
+ (components (extension coop-explorer)))
